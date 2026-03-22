@@ -281,7 +281,8 @@ def score_temporal(reglas):
 
 def preguntar_ia(prompt):
     try:
-       API_KEY = os.getenv("GEMINI_API_KEY")
+        import os
+        API_KEY = os.getenv("GEMINI_API_KEY")
 
         url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={API_KEY}"
 
@@ -297,7 +298,6 @@ def preguntar_ia(prompt):
 
         data = response.json()
 
-        # DEBUG real
         if "candidates" not in data:
             return f"Error Gemini API: {data}"
 
