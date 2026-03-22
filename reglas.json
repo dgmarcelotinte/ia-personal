@@ -1,0 +1,65 @@
+{
+"desconexion_pareja": {
+  "triggers": ["no fui con mi esposa", "evité estar con ella", "me quedé con el celular"],
+  "area": "emocional",
+  "impacto": -7,
+  "tipo": "negativo",
+  "acciones": ["priorizar tiempo con pareja"]
+},
+"conexion_pareja": {
+  "triggers": ["estuve con mi esposa", "compartimos tiempo"],
+  "area": "emocional",
+  "impacto": 8,
+  "tipo": "positivo",
+  "acciones": ["mantener vínculo"]
+},
+"distancia_hijo": {
+  "triggers": ["no veo a mi hijo", "no lo veo hace"],
+  "area": "emocional",
+  "impacto": -8,
+  "tipo": "negativo",
+  "acciones": ["reconectar con hijo"]
+},
+"presion_deuda": {
+  "triggers": ["deuda", "banco", "no llego", "cuotas"],
+  "area": "financiero",
+  "impacto": -9,
+  "tipo": "negativo",
+  "acciones": ["plan financiero urgente"]
+},
+"gasto_escape": {
+  "triggers": ["gasté", "compré al pedo"],
+  "area": "financiero",
+  "impacto": -6,
+  "tipo": "negativo",
+  "acciones": ["control gasto emocional"]
+},
+"impulsividad": {
+  "triggers": ["sin pensar", "impulsivo", "me mandé"],
+  "area": "emocional",
+  "impacto": -6,
+  "tipo": "negativo",
+  "acciones": ["pausar antes de actuar"]
+},
+"ansiedad_entorno": {
+  "triggers": ["mi esposa ansiosa", "tensión"],
+  "area": "emocional",
+  "impacto": -4,
+  "tipo": "negativo",
+  "acciones": ["no absorber ansiedad"]
+},
+"trabajo_desordenado": {
+  "triggers": ["no avancé", "no hice nada"],
+  "area": "laboral",
+  "impacto": -5,
+  "tipo": "negativo",
+  "acciones": ["definir tareas claras"]
+},
+"avance_real": {
+  "triggers": ["avancé", "produje", "trabajé bien"],
+  "area": "laboral",
+  "impacto": 7,
+  "tipo": "positivo",
+  "acciones": ["mantener ritmo"]
+}
+}
