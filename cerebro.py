@@ -2,6 +2,7 @@ import sqlite3
 import datetime
 import requests
 import pandas as pd
+import os
 
 
 DB = "memoria.db"
